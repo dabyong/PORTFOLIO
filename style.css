@@ -238,6 +238,13 @@ p { margin: 0; }
   align-items: center;
   justify-content: center;
 }
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .frame-label {
   position: absolute;
   top: 12px;
