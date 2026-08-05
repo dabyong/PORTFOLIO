@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allan Dave Cabanlong — Data Analyst / Machine Learning</title>
+<meta name="description" content="Portfolio of Allan Dave Cabanlong, Data Analyst and Machine Learning practitioner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="logo">ALLAN_DAVE_<wbr>CABANLONG</a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#top" class="nav-link is-active" data-nav>Home</a>
+      <a href="#about" class="nav-link" data-nav>About</a>
+      <a href="#projects" class="nav-link" data-nav>Projects</a>
+      <a href="#resume" class="nav-link" data-nav>Resume</a>
+      <a href="#certifications" class="nav-link" data-nav>Certifications</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="prompt">&gt;</span> whoami<span class="cursor" aria-hidden="true">_</span></p>
+        <h1 class="hero-title">DATA_ANALYST /<br>MACHINE_LEARNING</h1>
+        <p class="hero-body">
+          I turn messy, real-world data into decisions people can act on. My work spans
+          exploratory analysis, dashboarding, and building machine learning models that
+          hold up outside of a notebook — from data cleaning and feature engineering to
+          deployment and monitoring. Based in the Philippines, working with teams anywhere.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View_Projects()</a>
+          <a href="resume.pdf" class="btn btn-outline" download>Download_Resume()</a>
+        </div>
+      </div>
+
+      <div class="hero-media" aria-hidden="false">
+        <div class="frame">
+          <span class="crosshair crosshair-tl"></span>
+          <span class="crosshair crosshair-tr"></span>
+          <span class="crosshair crosshair-bl"></span>
+          <span class="crosshair crosshair-br"></span>
+          <div class="frame-inner">
+            <span class="frame-label">profile.jpg</span>
+            <svg viewBox="0 0 200 200" class="placeholder-avatar" role="img" aria-label="Portrait placeholder">
+              <circle cx="100" cy="78" r="38" />
+              <path d="M35 175c8-40 44-58 65-58s57 18 65 58" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PYTHON</span><span>SQL</span><span>PANDAS</span><span>SCIKIT-LEARN</span><span>TENSORFLOW</span><span>POWER_BI</span><span>TABLEAU</span><span>R</span><span>EXCEL</span>
+        <span>PYTHON</span><span>SQL</span><span>PANDAS</span><span>SCIKIT-LEARN</span><span>TENSORFLOW</span><span>POWER_BI</span><span>TABLEAU</span><span>R</span><span>EXCEL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="prompt">&gt;</span> cat about.md</p>
+        <h2>ABOUT_ME</h2>
+      </div>
+
+      <div class="about-body">
+        <p>
+          I'm a data analyst with a growing focus on machine learning — I like the
+          moment a pile of raw numbers turns into a chart, a model, or a decision
+          someone can actually use. I studied [Your Degree] at [Your University], and
+          since then I've worked on projects ranging from customer churn prediction to
+          sales forecasting and automated reporting dashboards.
+        </p>
+        <p>
+          I care about doing the unglamorous parts well: clean data pipelines, honest
+          model evaluation, and results explained in plain language. Outside of work,
+          I'm usually deep in a Kaggle notebook, reading about statistics, or tinkering
+          with a personal data project.
+        </p>
+
+        <ul class="skill-list">
+          <li><span class="skill-index">01</span>Data Cleaning &amp; Wrangling</li>
+          <li><span class="skill-index">02</span>Exploratory Data Analysis</li>
+          <li><span class="skill-index">03</span>Machine Learning Modeling</li>
+          <li><span class="skill-index">04</span>Dashboarding &amp; Reporting</li>
+          <li><span class="skill-index">05</span>SQL &amp; Database Querying</li>
+          <li><span class="skill-index">06</span>Statistical Analysis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="prompt">&gt;</span> ls ./projects</p>
+        <h2>PROJECTS</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="project-file">churn_prediction.ipynb</span>
+          </div>
+          <div class="project-card-body">
+            <h3>Customer Churn Prediction</h3>
+            <p>Built a classification model to flag at-risk subscribers, improving retention outreach targeting by identifying the top drivers of churn.</p>
+            <ul class="tag-list">
+              <li>Python</li><li>scikit-learn</li><li>Pandas</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="text-link">Case_Study →</a>
+              <a href="#" class="text-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="project-file">sales_dashboard.pbix</span>
+          </div>
+          <div class="project-card-body">
+            <h3>Regional Sales Dashboard</h3>
+            <p>Interactive Power BI dashboard consolidating multi-branch sales data, cutting manual monthly reporting time from days to minutes.</p>
+            <ul class="tag-list">
+              <li>Power BI</li><li>SQL</li><li>DAX</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="text-link">Case_Study →</a>
+              <a href="#" class="text-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="project-file">demand_forecast.py</span>
+          </div>
+          <div class="project-card-body">
+            <h3>Demand Forecasting Model</h3>
+            <p>Time-series forecasting pipeline for inventory planning, reducing stockouts by predicting weekly demand per SKU.</p>
+            <ul class="tag-list">
+              <li>Python</li><li>Prophet</li><li>NumPy</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="text-link">Case_Study →</a>
+              <a href="#" class="text-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="project-file">sentiment_analysis.ipynb</span>
+          </div>
+          <div class="project-card-body">
+            <h3>Customer Review Sentiment Analysis</h3>
+            <p>NLP pipeline classifying product review sentiment at scale to surface recurring complaints for the product team.</p>
+            <ul class="tag-list">
+              <li>Python</li><li>NLTK</li><li>TensorFlow</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="text-link">Case_Study →</a>
+              <a href="#" class="text-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section class="section" id="resume">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="prompt">&gt;</span> cat resume.log</p>
+        <h2>RESUME</h2>
+      </div>
+
+      <div class="resume-columns">
+        <div class="resume-col">
+          <h3 class="resume-col-title">Experience</h3>
+
+          <div class="timeline-item">
+            <p class="timeline-date">2024 — Present</p>
+            <h4>Data Analyst</h4>
+            <p class="timeline-org">Company Name</p>
+            <p>Own end-to-end reporting for the operations team; built forecasting models that informed quarterly planning.</p>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-date">2022 — 2024</p>
+            <h4>Junior Data Analyst</h4>
+            <p class="timeline-org">Company Name</p>
+            <p>Automated recurring reports and built dashboards adopted across three departments.</p>
+          </div>
+        </div>
+
+        <div class="resume-col">
+          <h3 class="resume-col-title">Education</h3>
+
+          <div class="timeline-item">
+            <p class="timeline-date">2018 — 2022</p>
+            <h4>B.S. in [Your Degree]</h4>
+            <p class="timeline-org">[Your University]</p>
+            <p>Relevant coursework: statistics, databases, and applied machine learning.</p>
+          </div>
+
+          <h3 class="resume-col-title resume-col-title-spaced">Tools</h3>
+          <ul class="tag-list tag-list-wide">
+            <li>Python</li><li>R</li><li>SQL</li><li>Pandas</li><li>NumPy</li>
+            <li>scikit-learn</li><li>TensorFlow</li><li>Power BI</li><li>Tableau</li><li>Excel</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-cta">
+        <a href="resume.pdf" class="btn btn-primary" download>Download_Full_Resume()</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section section-alt" id="certifications">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="prompt">&gt;</span> ls ./certifications</p>
+        <h2>CERTIFICATIONS</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <p class="cert-year">2024</p>
+          <h3>Google Data Analytics Certificate</h3>
+          <p class="cert-issuer">Google / Coursera</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-year">2024</p>
+          <h3>Machine Learning Specialization</h3>
+          <p class="cert-issuer">DeepLearning.AI / Coursera</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-year">2023</p>
+          <h3>SQL for Data Science</h3>
+          <p class="cert-issuer">UC Davis / Coursera</p>
+        </div>
+        <div class="cert-card">
+          <p class="cert-year">2023</p>
+          <h3>Microsoft Power BI Data Analyst</h3>
+          <p class="cert-issuer">Microsoft</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="logo logo-footer">ALLAN_DAVE_CABANLONG</p>
+      <p class="footer-tagline">Data Analyst / Machine Learning</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="mailto:hello@example.com" class="text-link">Email →</a>
+      <a href="#" class="text-link">GitHub →</a>
+      <a href="#" class="text-link">LinkedIn →</a>
+    </div>
+  </div>
+  <p class="footer-copy">© <span id="year"></span> Allan Dave Cabanlong. Built with HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
