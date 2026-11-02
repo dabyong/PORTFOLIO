@@ -540,3 +540,13 @@ p { margin: 0; }
   .project-metrics strong { font-size: 15px; }
   .project-status { width: 100%; margin: 7px 0 0 14px; }
 }
+
+/* Second completed portfolio project */
+.project-grid-secondary { margin-top: 48px; }
+.project-card-02 .project-featured-visual { background: #f0f4f7; }
+.project-gallery-02 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.project-gallery-02 img { aspect-ratio: 16 / 9; }
+@media (max-width: 700px) {
+  .project-grid-secondary { margin-top: 36px; }
+  .project-gallery-02 { grid-template-columns: 1fr; }
+}
