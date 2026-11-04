@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Allan Dave Cabanlong | Data Analyst with an AI Focus</title>
-<meta name="description" content="Explore Allan Dave Cabanlong’s data analytics portfolio: Olist e-commerce business intelligence and GA4 customer journey funnel analytics with SQL, Python, Power BI, statistics, and exploratory machine learning.">
+<meta name="description" content="Explore Allan Dave Cabanlong’s Data Analyst + AI portfolio: e-commerce business intelligence, GA4 conversion funnel analytics, and NYC taxi demand forecasting with SQL, Python, Power BI, and machine learning.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -88,11 +88,11 @@
           checking the data, building the analysis, and explaining what the results mean.
         </p>
         <p>
-          My completed projects include Olist e-commerce business intelligence and GA4
-          customer journey analytics. Together, they cover data validation, SQL modeling,
-          interactive Power BI reporting, statistical analysis, and exploratory
-          machine learning with Isolation Forest. I focus on showing what the
-          evidence supports, including its limitations.
+          My completed projects include Olist e-commerce business intelligence, GA4
+          customer journey analytics, and NYC taxi demand forecasting. Together,
+          they cover SQL modeling, data validation, Power BI reporting, statistical
+          analysis, anomaly detection, and time-aware machine learning. I focus
+          on results that are useful to decision-makers and honest about limitations.
         </p>
 
         <ul class="skill-list" aria-label="Analytics skills">
@@ -104,6 +104,8 @@
           <li><span class="skill-index">06</span>Business Insights &amp; Reporting</li>
           <li><span class="skill-index">07</span>BigQuery &amp; GA4 Event Analysis</li>
           <li><span class="skill-index">08</span>Statistical Analysis &amp; Applied ML</li>
+          <li><span class="skill-index">09</span>DuckDB &amp; SQL Aggregation</li>
+          <li><span class="skill-index">10</span>Time-Series Forecasting &amp; Evaluation</li>
         </ul>
       </div>
     </div>
@@ -115,7 +117,7 @@
       <div class="section-heading">
         <p class="eyebrow"><span class="prompt">&gt;</span> ls ./projects</p>
         <h2>FEATURED_PROJECTS</h2>
-        <p class="section-intro">Two completed end-to-end projects using public e-commerce datasets, with reproducible code, dashboards, and business findings.</p>
+        <p class="section-intro">Three completed end-to-end analytics projects spanning e-commerce, conversion funnels, and taxi-demand forecasting, with documented methods, dashboards, and business insights.</p>
       </div>
 
       <div class="project-grid">
@@ -247,6 +249,80 @@
         </a>
       </div>
 
+
+      <!-- ============ PROJECT 03 ============ -->
+      <div class="project-grid project-grid-secondary">
+        <article class="project-card project-card-featured project-card-03">
+          <div class="project-card-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="project-file">03 / nyc-taxi-demand-forecasting</span>
+            <span class="project-status">COMPLETED ANALYSIS</span>
+          </div>
+          <div class="project-featured-layout">
+            <div class="project-featured-visual">
+              <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/assets/screenshots/02_forecast_performance.png" target="_blank" rel="noopener noreferrer" aria-label="Open NYC Taxi Forecast Performance dashboard screenshot">
+                <img src="https://raw.githubusercontent.com/dabyong/nyc-taxi-demand-forecasting/main/assets/screenshots/02_forecast_performance.png" alt="Power BI dashboard comparing zone-day taxi demand forecast errors for machine learning and the previous-week baseline" loading="lazy">
+              </a>
+              <p class="visual-caption">POWER BI / FORECAST PERFORMANCE</p>
+            </div>
+            <div class="project-card-body project-featured-content">
+              <p class="project-kicker">PROJECT 03 · TIME-SERIES FORECASTING &amp; OPERATIONS ANALYTICS</p>
+              <h3>NYC Yellow Taxi Demand Forecasting &amp; Operational Planning</h3>
+              <p>
+                An end-to-end study using 2024–2025 NYC Yellow Taxi trip records.
+                I used DuckDB and Python to audit and aggregate recorded pickups by day
+                and pickup zone, engineered lag and calendar features, compared forecasting
+                baselines against Histogram Gradient Boosting, and built a three-page
+                Power BI report for operational planning reviews.
+              </p>
+              <div class="project-metrics" aria-label="Key project results">
+                <div><strong>10.20%</strong><span>ML zone-day WAPE*</span></div>
+                <div><strong>16.73%</strong><span>Last-week baseline WAPE</span></div>
+                <div><strong>39.04%</strong><span>Relative error reduction</span></div>
+              </div>
+              <p class="project-finding">
+                <strong>Key finding:</strong> The selected model reduced zone-day
+                weighted absolute percentage error by 39.04% relative to a
+                same-weekday-last-week benchmark on an untouched October–December
+                2025 test period. Forecasts can help prioritize zone-level coverage
+                reviews, but do not establish vehicle shortages.
+              </p>
+              <ul class="tag-list" aria-label="Tools used">
+                <li>Python</li><li>DuckDB</li><li>SQL</li><li>Pandas</li><li>scikit-learn</li><li>Power BI</li><li>Forecast Evaluation</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/reports/business_insights_and_recommendations.md" class="text-link" target="_blank" rel="noopener noreferrer">Read_Case_Study →</a>
+                <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting" class="text-link" target="_blank" rel="noopener noreferrer">View_GitHub →</a>
+                <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/powerbi/NYC_Taxi_Demand_Forecasting.pbix" class="text-link" target="_blank" rel="noopener noreferrer">Power_BI_File →</a>
+                <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/docs/MODEL_CARD.md" class="text-link" target="_blank" rel="noopener noreferrer">Model_Card →</a>
+              </div>
+              <p class="project-note">
+                *WAPE is forecast error, not model accuracy; lower is better. Results
+                reflect an offline rolling one-day-ahead evaluation over 92 days
+                (October–December 2025), using actual pickups available through the
+                prior day. Predictions represent observed trips, not unmet demand,
+                fleet capacity, or a deployed live forecast service.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="project-gallery project-gallery-03" aria-label="NYC Taxi Forecasting Power BI dashboard pages">
+        <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/assets/screenshots/01_demand_overview.png" target="_blank" rel="noopener noreferrer">
+          <img src="https://raw.githubusercontent.com/dabyong/nyc-taxi-demand-forecasting/main/assets/screenshots/01_demand_overview.png" alt="NYC Yellow Taxi daily demand overview dashboard with trends and pickup zone breakdowns" loading="lazy">
+          <span>Demand Overview ↗</span>
+        </a>
+        <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/assets/screenshots/02_forecast_performance.png" target="_blank" rel="noopener noreferrer">
+          <img src="https://raw.githubusercontent.com/dabyong/nyc-taxi-demand-forecasting/main/assets/screenshots/02_forecast_performance.png" alt="NYC taxi forecast performance dashboard comparing errors" loading="lazy">
+          <span>Forecast Performance ↗</span>
+        </a>
+        <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting/blob/main/assets/screenshots/03_operational_planning.png" target="_blank" rel="noopener noreferrer">
+          <img src="https://raw.githubusercontent.com/dabyong/nyc-taxi-demand-forecasting/main/assets/screenshots/03_operational_planning.png" alt="NYC taxi operational planning watchlist and pickup volume dashboard" loading="lazy">
+          <span>Operational Planning ↗</span>
+        </a>
+      </div>
+
       <p class="project-next">More real-world Data Analytics and AI-focused projects are planned. Only completed work is featured here.</p>
     </div>
   </section>
@@ -278,14 +354,15 @@
           <h3 class="resume-col-title">Core Toolkit</h3>
           <ul class="tag-list tag-list-wide">
             <li>Python</li><li>Pandas</li><li>MySQL</li><li>SQL</li><li>Power BI</li><li>DAX</li>
-            <li>BigQuery</li><li>scikit-learn</li><li>Statistics</li><li>Data Quality</li><li>Relational Modeling</li><li>Git &amp; GitHub</li>
+            <li>BigQuery</li><li>DuckDB</li><li>scikit-learn</li><li>Statistics</li><li>Time-Series Forecasting</li><li>Data Quality</li><li>Relational Modeling</li><li>Git &amp; GitHub</li>
           </ul>
           <h3 class="resume-col-title resume-col-title-spaced">What's Next</h3>
           <p class="background-copy">
-            My Olist project demonstrates business intelligence and reporting; my
-            Customer Journey project adds statistical testing and an exploratory
-            Isolation Forest model. I use AI as a practical analytical tool,
-            while keeping its limitations and unverified findings clear.
+            Olist demonstrates business intelligence; Customer Journey adds statistical
+            analysis and exploratory anomaly detection; NYC Taxi demonstrates
+            time-aware forecasting, baseline comparisons, and operational planning.
+            I use machine learning where it adds measured value and document
+            what the results do and do not support.
           </p>
           <a href="https://github.com/dabyong" class="btn btn-primary background-action" target="_blank" rel="noopener noreferrer">Explore_My_GitHub()</a>
         </div>
@@ -308,6 +385,7 @@
       <a href="https://github.com/dabyong" class="text-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
       <a href="https://github.com/dabyong/olist-ecommerce-analytics" class="text-link" target="_blank" rel="noopener noreferrer">Olist_Project →</a>
       <a href="https://github.com/dabyong/customer-journey-analytics" class="text-link" target="_blank" rel="noopener noreferrer">Customer_Journey →</a>
+      <a href="https://github.com/dabyong/nyc-taxi-demand-forecasting" class="text-link" target="_blank" rel="noopener noreferrer">NYC_Taxi →</a>
     </div>
   </div>
   <p class="footer-copy">© <span id="year"></span> Allan Dave Cabanlong. Built with HTML, CSS &amp; JS.</p>
