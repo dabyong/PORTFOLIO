@@ -561,3 +561,37 @@ p { margin: 0; }
 @media (max-width: 700px) {
   .project-gallery-03 { grid-template-columns: 1fr; }
 }
+
+
+/* Project 04: Live marketing lead ranking — CSS-only illustrative panel. */
+.project-card-04 .project-featured-visual { background: #edf4f4; }
+.project4-demo-panel {
+  display: flex; flex-direction: column; gap: 18px;
+  padding: clamp(20px, 3vw, 38px);
+  min-height: 365px;
+  color: #f9fcfc;
+  background: linear-gradient(135deg, #0a0f2e, #121a45);
+  font-family: var(--font-display);
+}
+.project4-demo-top {
+  display: flex; justify-content: space-between; gap: 10px; align-items: center;
+  border-bottom: 1px solid #35406c; padding-bottom: 14px;
+  font-size: 11px; letter-spacing: .03em; color: #b7bbd6;
+}
+.project4-demo-live { color: #2fd18f; font-weight: 800; white-space: nowrap; }
+.project4-demo-heading { font-size: clamp(17px, 2.1vw, 25px); font-weight: 800; line-height: 1.25; overflow-wrap: anywhere; }
+.project4-demo-heading span { color: #2fd18f; }
+.project4-demo-sub { font-size: 10px; letter-spacing: .05em; color: #aab2d0; }
+.project4-demo-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.project4-demo-stats div { border: 1px solid #38406b; padding: 14px; display: flex; flex-direction: column; gap: 6px; }
+.project4-demo-stats strong { color: #f9fcfc; font-size: clamp(20px, 2.7vw, 29px); }
+.project4-demo-stats span { color: #aeb9d6; font-size: 9px; letter-spacing: .04em; }
+.project4-demo-bars { display: grid; gap: 14px; }
+.project4-demo-bars div { display: grid; gap: 6px; font-size: 10px; color: #aeb9d6; }
+.project4-demo-bars i { display: block; width: var(--bar-width); height: 9px; background: #2fd18f; }
+.project4-demo-bars div:first-child i { background: #8390b9; }
+.project4-demo-cta { border-top: 1px solid #35406c; padding-top: 14px; color: #2fd18f; font-size: 12px; font-weight: 800; }
+@media(max-width:700px) {
+  .project4-demo-panel { min-height: 320px; gap: 14px; padding: 22px; }
+  .project4-demo-heading { font-size: 17px; }
+}
